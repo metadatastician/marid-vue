@@ -7,7 +7,7 @@
  * with automatic onUnmounted lifecycle cleanup.
  */
 
-import { MaridClient } from "../../client/src/index.js";
+import { MaridClient } from "../../marid-client/src/index.js";
 
 const MARID_CLIENT_KEY = Symbol("MaridClient");
 
